@@ -7,3 +7,6 @@
 [submodule "org.mutagen.evraz.processing"]
 	path = org.mutagen.evraz.processing
 	url = git@github.com:meditrace-org/org.mutagen.evraz.processing.git
+[submodule "org.mutagen.evraz.api"]
+	path = org.mutagen.evraz.api
+	url = https://github.com/meditrace-org/org.mutagen.evraz.api.git
