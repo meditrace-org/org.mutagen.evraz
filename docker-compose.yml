@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  rabbitmq:
+    extends:
+      file: org.mutagen.evraz.rabbitmq/docker-compose.yml
+      service: rabbitmq
+    env_file: ".env"
+
+networks:
+  mutagen-backend:
+    name: mutagen-backend

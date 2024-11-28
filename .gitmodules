@@ -1,6 +1,9 @@
 [submodule "org.mutagen.evraz.telegram_bot"]
 	path = org.mutagen.evraz.telegram_bot
 	url = git@github.com:meditrace-org/org.mutagen.evraz.telegram_bot.git
-[submodule "org.mutagen.evraz.backend"]
-	path = org.mutagen.evraz.backend
-	url = https://github.com/meditrace-org/org.mutagen.evraz.backend.git
+[submodule "org.mutagen.evraz.rabbitmq"]
+	path = org.mutagen.evraz.rabbitmq
+	url = git@github.com:meditrace-org/org.mutagen.evraz.rabbitmq.git
+[submodule "org.mutagen.evraz.processing"]
+	path = org.mutagen.evraz.processing
+	url = git@github.com:meditrace-org/org.mutagen.evraz.processing.git
