@@ -6,7 +6,13 @@ services:
       file: org.mutagen.evraz.rabbitmq/docker-compose.yml
       service: rabbitmq
     env_file: ".env"
+  mongo:
+    extends:
+      file: org.mutagen.evraz.mongodb/docker-compose.yml
+      service: mongo
+    env_file: ".env"
+
 
 networks:
   mutagen-backend:
-    name: mutagen-backend
+    name: mutagen-evraz-backend
