@@ -9,7 +9,7 @@
 	url = git@github.com:meditrace-org/org.mutagen.evraz.processing.git
 [submodule "org.mutagen.evraz.api"]
 	path = org.mutagen.evraz.api
-	url = https://github.com/meditrace-org/org.mutagen.evraz.api.git
+	url = git@github.com:meditrace-org/org.mutagen.evraz.api.git
 [submodule "org.mutagen.evraz.mongodb"]
 	path = org.mutagen.evraz.mongodb
-	url = https://github.com/meditrace-org/org.mutagen.evraz.mongodb.git
+	url = git@github.com:meditrace-org/org.mutagen.evraz.mongodb.git
