@@ -11,6 +11,11 @@ services:
       file: org.mutagen.evraz.mongodb/docker-compose.yml
       service: mongo
     env_file: ".env"
+  evraz-api:
+    extends:
+      file: org.mutagen.evraz.api/docker-compose.yml
+      service: evraz-api
+    env_file: ".env"
 
 
 networks:
